@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from db.pg.base_model import Base
+from db.pg import Base
 from db.pg.base import engine
 
 app = FastAPI()
